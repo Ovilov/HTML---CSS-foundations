@@ -1,0 +1,81 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: #f4d04e;
+  font-family: "Figtree", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500px;
+  line-height: 24px;
+  color: #7f7f7f;
+}
+a {
+  text-decoration: none;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: #fff;
+  border: 1px solid #111;
+  border-radius: 20px;
+  padding: 24px;
+  width: 384px;
+  box-shadow: 8px 8px 0px 0px #000;
+}
+.card__badge-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 4px 12px;
+  border-radius: 4px;
+  background-color: #f4d04e;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 21px;
+  color: #111;
+}
+.card__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #111;
+  line-height: 21px;
+}
+.card__published-data {
+  color: #111;
+}
+.card__title {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+.card__title-link {
+  color: #111;
+}
+.card__title-link:hover {
+  color: #f4d04e;
+}
+.card__autor {
+  display: flex;
+  text-align: center;
+  gap: 12px;
+}
+.card__autor-img {
+  width: 32px;
+  height: 32px;
+  border: radius 32px;
+}
+.card__autor-name {
+  color: #111;
+}
